@@ -20,4 +20,4 @@ Before starting the service we need to first create the data store we're going t
  
  - The default Spring Boot security can be turned on by removing "exclude = {SecurityAutoConfiguration.class}" from MyRetailServiceApplication class and "spring.security.ignored=/**" from application.properties. This will require you to add Authorization to your request. You can find the password for the authorization provided in the console log during the service startup. The username is Spring Boot default "user".
  
-Any further questions, please feel free to ask."# myRetail" 
+Any further questions, please feel free to ask.
