@@ -6,7 +6,7 @@ This is a Spring Boot RESTful service demonstrating the myRetail RESTful service
 
 Before starting the service we need to first create the data store we're going to use within the service to store the prices for each product.
 
- - Execute the scripts below on a Postgres server (In the order listed; scripts located main/resources/db):
+ - Execute the scripts below on a Postgres server, port 5436 (In the order listed; scripts located main/resources/db):
     1) CREATE_PRODUCT_PRICE.sql
     2) INSERT_PRODUCT_PRICE.sql
     
